@@ -1,0 +1,63 @@
+# The F.M. Zavala Law Firm — Santa Clarita Divorce Attorney Website
+
+A modern, elegant, and fully SEO-optimized website for The F.M. Zavala Law Firm, a family law practice serving Santa Clarita Valley, California.
+
+**Live pages:** Home, About, Practice Areas, Why Choose Us, Contact (with working consultation request form).
+
+## Tech Stack
+
+- Next.js 16 (App Router, Server Components, static prerendering)
+- Tailwind CSS v4 + custom elegant design system
+- shadcn/ui (Base UI primitives) + Framer Motion (tasteful, restrained animations)
+- Zod + React Server Actions for the contact/consultation form
+- Full SEO: Metadata API, sitemap, robots, JSON-LD structured data, Open Graph image generation
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+## Key Features
+
+- Calm, trustworthy, professional aesthetic using the specified brand palette (Dusty Blue, Deep Navy, Warm Cream)
+- Fully responsive with elegant mobile navigation (Sheet)
+- Working free consultation form with server-side validation, honeypot, and success states
+- Subtle Framer Motion scroll reveals and testimonial carousel
+- Production-ready SEO foundations (sitemap, OG images, Attorney + LegalService schema)
+
+## Form (Production Email)
+
+The consultation form currently logs submissions to the server console. To send real emails in production:
+
+1. Install Resend (recommended): `npm install resend`
+2. Add `RESEND_API_KEY` to your environment
+3. Replace the placeholder in `app/(marketing)/contact/actions.ts` with an actual `resend.emails.send()` call
+
+See the commented example already present in the action file.
+
+## Customization Notes
+
+- Replace placeholder portrait areas (in About and Home) with professional photography of Frank M. Zavala.
+- Update real phone, email, and office address in `components/footer.tsx`, `app/(marketing)/contact/page.tsx`, and schema in `app/layout.tsx`.
+- Testimonials are fictional for demonstration — replace with real (permissioned) client stories.
+- Adjust practice area descriptions as needed.
+
+## Build & Deploy
+
+```bash
+npm run build
+```
+
+The site is fully static and deploys beautifully to Vercel, Netlify, or any static host.
+
+## License / Legal
+
+This is a professional marketing website. All legal disclaimers are included in the footer. Content language follows conservative, compliant attorney advertising standards for California.
+
+---
+
+Built following Next.js 16 App Router best practices (see `node_modules/next/dist/docs/` for the authoritative guides used during development).

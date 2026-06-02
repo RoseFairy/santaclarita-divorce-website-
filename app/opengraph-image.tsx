@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "The F.M. Zavala Law Firm — Santa Clarita Divorce Attorney";
+export const alt = "Real Santa Clarita Divorce Attorney with 30 Years, Former Judge — The F.M. Zavala Law Firm | Valencia & Newhall";
 export const size = {
   width: 1200,
   height: 630,
@@ -53,7 +53,7 @@ export default async function Image() {
               letterSpacing: "-0.01em",
             }}
           >
-            Santa Clarita Divorce &amp; Family Law Attorney
+            Real Santa Clarita Divorce Attorney • 30 Years • Former Judge • Valencia • Newhall
           </div>
         </div>
 

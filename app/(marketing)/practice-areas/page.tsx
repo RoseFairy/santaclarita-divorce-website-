@@ -5,13 +5,17 @@ import { FileText, Users, DollarSign, Shield, RefreshCw, Handshake, Scroll, Brie
 
 export const metadata = {
   title: "Practice Areas | Santa Clarita Divorce Attorney",
-  description: "Santa Clarita divorce attorney offering comprehensive family law services including property division, high-asset divorce, child custody evaluations, spousal support, and estate planning for families in Santa Clarita and Los Angeles County.",
+  description: "Santa Clarita Divorce Attorney Francisco M. Zavala, Esq. — Real Licensed Attorney with 30 Years Experience, Former Judge. Full-service for high-asset divorce, child custody, spousal support in Santa Clarita, Valencia, Newhall, Canyon Country, and Los Angeles County. Direct Attorney Access.",
   keywords: [
     "Santa Clarita divorce attorney",
+    "Valencia divorce attorney",
+    "Newhall divorce attorney",
     "Santa Clarita family law attorney",
     "Los Angeles County divorce attorney",
     "high asset divorce Santa Clarita",
     "child custody attorney Santa Clarita",
+    "Santa Clarita child custody lawyer",
+    "Valencia child custody lawyer",
     "property division Santa Clarita",
     "730 evaluation Santa Clarita",
   ],
@@ -21,7 +25,7 @@ const areas = [
   {
     icon: FileText,
     title: "Divorce & Legal Separation",
-    desc: "Strategic guidance through every stage of marital dissolution—from uncontested agreements to high-conflict litigation—delivered with clarity and respect for the personal and financial stakes involved.",
+    desc: "Strategic guidance through every stage of marital dissolution—from uncontested agreements to high-conflict litigation—by the real licensed Santa Clarita Divorce Attorney serving Valencia, Newhall, Canyon Country, and Los Angeles County. Delivered with clarity and respect for the personal and financial stakes involved in Santa Clarita family courts.",
     points: [
       "No-fault and fault-based proceedings",
       "Legal separation when appropriate",
@@ -31,7 +35,7 @@ const areas = [
   {
     icon: Users,
     title: "Child Custody & Visitation",
-    desc: "Experienced representation in sole, joint, and complex custody and visitation matters. We guide clients through evaluations, the appointment of Minor’s Counsel, forensic assessments, and relocation cases with a steadfast focus on the child’s best interests.",
+    desc: "Experienced representation in sole, joint, and complex custody and visitation matters by the real licensed Santa Clarita Divorce Attorney serving Valencia, Newhall, and Los Angeles County. We guide clients through 730 evaluations, the appointment of Minor’s Counsel, forensic assessments, and relocation cases in Santa Clarita, Valencia, and Newhall courts with a steadfast focus on the child’s best interests.",
     points: [
       "Child Custody Evaluations (730 Evaluations)",
       "Appointment of Minor's Counsel",
@@ -42,7 +46,7 @@ const areas = [
   {
     icon: DollarSign,
     title: "Child & Spousal Support",
-    desc: "Accurate calculation and strong advocacy for child support and spousal support orders that reflect California guidelines and the true financial circumstances of both parties.",
+    desc: "Accurate calculation and strong advocacy for child support and spousal support orders that reflect California guidelines and the true financial circumstances of both parties for families in Santa Clarita, Valencia, Newhall, Canyon Country, and throughout Los Angeles County.",
     points: [
       "Guideline and above-guideline support calculations",
       "Imputation of income and needs-based arguments",
@@ -52,7 +56,7 @@ const areas = [
   {
     icon: Briefcase,
     title: "Property and Asset Division",
-    desc: "Every divorce in Santa Clarita involves dividing property and assets. As your local Santa Clarita divorce attorney, we take a practical, balanced approach—whether your situation involves typical marital assets or complex high-asset matters—and work to achieve fair outcomes for families in Santa Clarita and Los Angeles County.",
+    desc: "Every divorce in Santa Clarita, Valencia, and Newhall involves dividing property and assets. As your real licensed Santa Clarita Divorce Attorney with 30 years experience serving Valencia, Newhall, Canyon Country, and the Santa Clarita Valley, we take a practical, balanced approach—whether your situation involves typical marital assets or complex high-asset matters—and work to achieve fair outcomes for families in Santa Clarita and Los Angeles County courts.",
     points: [
       "Simple / Standard Property Division — Division of the family home, retirement accounts, bank accounts, vehicles, household items, and other typical marital assets using established legal principles and fair negotiation.",
       "High-Asset & Complex Property Division — Asset tracing (including hidden assets, offshore accounts, and suspicious transfers), business valuation, lifestyle analysis, forensic accounting, and collaboration with financial experts when substantial or concealed assets are involved.",
@@ -61,7 +65,7 @@ const areas = [
   {
     icon: Shield,
     title: "Domestic Violence & Restraining Orders",
-    desc: "Immediate, effective protection for victims of domestic violence and strong defense for those facing allegations. We understand the critical intersection of these matters with custody, support, and property division.",
+    desc: "Immediate, effective protection for victims of domestic violence and strong defense for those facing allegations in Santa Clarita, Valencia, Newhall, and Los Angeles County courts. We understand the critical intersection of these matters with custody, support, and property division for families in Santa Clarita, Valencia, and Newhall.",
     points: [
       "Emergency protective orders and DVROs",
       "Related custody and support implications",
@@ -71,7 +75,7 @@ const areas = [
   {
     icon: RefreshCw,
     title: "Post-Judgment Modifications & Enforcement",
-    desc: "When life circumstances change, we help clients seek or defend modifications to custody, visitation, and support orders, as well as enforce existing judgments through contempt and other proceedings when necessary.",
+    desc: "When life circumstances change, we help clients in Santa Clarita, Valencia, Newhall, and Los Angeles County seek or defend modifications to custody, visitation, and support orders, as well as enforce existing judgments through contempt and other proceedings when necessary in Santa Clarita, Valencia, and Newhall family courts.",
     points: [
       "Changed circumstances analysis",
       "Enforcement of existing orders",
@@ -81,7 +85,7 @@ const areas = [
   {
     icon: Handshake,
     title: "Mediation & Collaborative Divorce",
-    desc: "When parties are committed to a respectful, efficient process, we provide skilled mediation and collaborative divorce services that reduce conflict, cost, and time while achieving durable agreements.",
+    desc: "When parties are committed to a respectful, efficient process, we provide skilled mediation and collaborative divorce services for families in Santa Clarita, Valencia, Newhall, Canyon Country, and Los Angeles County that reduce conflict, cost, and time while achieving durable agreements in or out of court.",
     points: [
       "Private mediation services",
       "Collaborative divorce team approach",
@@ -91,7 +95,7 @@ const areas = [
   {
     icon: Scroll,
     title: "Estate Planning",
-    desc: "Wills, trusts, and estate planning documents thoughtfully prepared for individuals and families, with special attention to the unique considerations that arise during and after divorce, including blended families and support obligations.",
+    desc: "Wills, trusts, and estate planning documents thoughtfully prepared for individuals and families in Santa Clarita, Valencia, Newhall, and Los Angeles County, with special attention to the unique considerations that arise during and after divorce, including blended families and support obligations under California law.",
     points: [
       "Wills and revocable living trusts",
       "Blended family and asset protection planning",
@@ -106,9 +110,9 @@ export default function PracticeAreasPage() {
       <div className="bg-white border-b border-[#D4CFC4] py-12">
         <div className="container max-w-3xl">
           <div className="text-xs tracking-[2.5px] text-[#5F7A9E]">COMPREHENSIVE FAMILY LAW</div>
-          <h1 className="heading-serif text-[#334155] mt-2">Santa Clarita Family Law Practice Areas</h1>
+          <h1 className="heading-serif text-[#334155] mt-2">Santa Clarita Divorce Attorney Practice Areas for Valencia, Newhall &amp; the Santa Clarita Valley</h1>
           <p className="mt-4 text-lg text-[#5A5A5A]">
-            As a Santa Clarita divorce attorney, we focus exclusively on family law for clients in Santa Clarita and throughout Los Angeles County. We handle straightforward property division as well as complex high-asset matters, child custody evaluations, support, and estate planning.
+            As the real licensed Santa Clarita Divorce Attorney with 30 years experience serving Valencia, Newhall, Canyon Country, and the Santa Clarita Valley, we focus exclusively on family law for clients in Santa Clarita, Valencia, Newhall, and throughout Los Angeles County. We handle straightforward property division as well as complex high-asset matters, child custody evaluations, support, and estate planning — with Direct Attorney Access, never delegated to paralegals or staff.
           </p>
         </div>
       </div>
@@ -146,9 +150,12 @@ export default function PracticeAreasPage() {
 
       <Section className="bg-white border-y border-[#D4CFC4] text-center">
         <div className="max-w-xl mx-auto">
-          <h2 className="heading-serif text-[#334155]">Every family’s situation is unique.</h2>
+          <h2 className="heading-serif text-[#334155]">Every family’s situation is unique. Choose a real Santa Clarita Divorce Attorney.</h2>
           <p className="mt-4 text-[#5A5A5A]">
-            The issues above often overlap. We take the time to understand the full picture of your case so we can build the right strategy from day one.
+            The issues above often overlap. Every matter is handled directly by the real licensed Santa Clarita Divorce Attorney Francisco M. Zavala, Esq. — 30 years experience as Former Los Angeles County Temporary Judge, UCLA Law — with Direct Attorney Access, never handled by paralegals or staff. We take the time to understand the full picture of your case so we can build the right strategy from day one for clients in Santa Clarita, Valencia, Newhall, Canyon Country, and the Santa Clarita Valley.
+          </p>
+          <p className="mt-4 text-sm text-[#5A5A5A]">
+            Not sure which area applies? <Link href="/about" className="text-[#5F7A9E] hover:underline">Meet the real Santa Clarita Divorce Attorney with 30 years experience serving Valencia and Newhall</Link> or call for guidance.
           </p>
           <div className="mt-8">
             <ConsultationCTA size="lg" />

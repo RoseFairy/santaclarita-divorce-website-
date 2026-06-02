@@ -3,11 +3,13 @@ import { Section } from "@/components/section";
 import { ConsultationCTA } from "@/components/consultation-cta";
 
 export const metadata = {
-  title: "High-Conflict Child Custody Litigation in California: What Santa Clarita Parents Need to Know",
-  description: "A comprehensive guide to high-conflict child custody cases in California. Learn about 730 evaluations, Minor's Counsel, parental alienation, and how an experienced Santa Clarita and Los Angeles County family law attorney can protect your children.",
+  title: "High-Conflict Child Custody | Santa Clarita Divorce Attorney",
+  description: "Real licensed Santa Clarita Divorce Attorney guide to high-conflict child custody cases in Santa Clarita, Valencia, Newhall, and Los Angeles County. 730 evaluations, Minor's Counsel, parental alienation — 30 years Direct Attorney Access, Former Judge.",
   keywords: [
     "high conflict custody California",
     "Santa Clarita high conflict custody lawyer",
+    "Valencia high conflict custody",
+    "Newhall child custody lawyer",
     "Los Angeles County high conflict custody",
     "730 evaluation high conflict",
     "Minor's Counsel California",
@@ -23,10 +25,10 @@ export default function HighConflictCustodyBlog() {
         <div className="container max-w-4xl">
           <div className="text-xs tracking-[2.5px] text-[#5F7A9E]">RESOURCES • FAMILY LAW</div>
           <h1 className="heading-serif text-[#334155] mt-3 text-4xl md:text-5xl leading-tight">
-            High-Conflict Child Custody Litigation in California: What Santa Clarita Parents Need to Know
+            High-Conflict Child Custody: Real Santa Clarita Divorce Attorney Guide for Valencia &amp; Newhall Families
           </h1>
           <p className="mt-4 text-lg text-[#5A5A5A]">
-            A practical guide for parents facing intense custody disputes in Santa Clarita and Los Angeles County courts.
+            A practical guide for parents facing intense custody disputes in Santa Clarita, Valencia, Newhall, and Los Angeles County courts.
           </p>
           <div className="mt-4 text-sm text-[#5A5A5A]">
             Published • June 2026 • The F.M. Zavala Law Firm
@@ -42,7 +44,7 @@ export default function HighConflictCustodyBlog() {
             High-conflict child custody litigation occurs when parents are unable to reach agreements about their children, leading to prolonged and contentious court proceedings. These cases often involve repeated court appearances, allegations of misconduct, and significant emotional and financial strain on the entire family.
           </p>
           <p>
-            In Santa Clarita and throughout Los Angeles County, family court judges see these cases regularly. They are marked by a high degree of distrust between the parents, frequent disputes over parenting time, and sometimes the involvement of multiple professionals such as evaluators, therapists, and attorneys. The children in these situations often experience the highest levels of stress.
+            In Santa Clarita, Valencia, Newhall, and throughout Los Angeles County, family court judges see these cases regularly. They are marked by a high degree of distrust between the parents, frequent disputes over parenting time, and sometimes the involvement of multiple professionals such as evaluators, therapists, and attorneys. The children in these situations often experience the highest levels of stress.
           </p>
 
           <h2>Common Causes of High-Conflict Custody Battles</h2>
@@ -57,7 +59,7 @@ export default function HighConflictCustodyBlog() {
             <li>Parental alienation or attempts to turn children against the other parent</li>
           </ul>
           <p>
-            In Santa Clarita family courts, judges are increasingly attuned to these dynamics and expect parents and attorneys to present clear evidence rather than unsubstantiated accusations.
+            In Santa Clarita, Valencia, and Newhall family courts, judges are increasingly attuned to these dynamics and expect parents and attorneys to present clear evidence rather than unsubstantiated accusations.
           </p>
 
           <h2>The “Best Interests of the Child” Standard in High-Conflict Cases</h2>
@@ -81,7 +83,7 @@ export default function HighConflictCustodyBlog() {
 
           <h2>Role of Child Custody Evaluations (730 Evaluations)</h2>
           <p>
-            In high-conflict custody cases in Santa Clarita and Los Angeles County, the court often orders a Child Custody Evaluation under Evidence Code section 730. These evaluations are conducted by qualified mental health professionals who assess the family dynamics, parenting abilities, and the child’s needs.
+            In high-conflict custody cases in Santa Clarita, Valencia, Newhall, and Los Angeles County, the court often orders a Child Custody Evaluation under Evidence Code section 730. These evaluations are conducted by qualified mental health professionals who assess the family dynamics, parenting abilities, and the child’s needs.
           </p>
           <p>
             A 730 evaluation typically involves multiple interviews with both parents, the children, and collateral contacts (such as teachers, therapists, or family members). The evaluator may also administer psychological testing. The resulting report provides the court with an independent, professional assessment of what custody arrangement would serve the child’s best interests.
@@ -114,7 +116,7 @@ export default function HighConflictCustodyBlog() {
 
           <h2>Court Process, Timelines, and What to Expect</h2>
           <p>
-            High-conflict custody cases in Santa Clarita and Los Angeles County typically move through several stages. After the initial petition or motion is filed, the court may order temporary orders, mediation, and often a custody evaluation. Hearings and trials can extend over many months, sometimes years.
+            High-conflict custody cases in Santa Clarita, Valencia, Newhall, and Los Angeles County typically move through several stages. After the initial petition or motion is filed, the court may order temporary orders, mediation, and often a custody evaluation. Hearings and trials can extend over many months, sometimes years.
           </p>
           <p>
             Parents should expect frequent court appearances, detailed discovery requests, and the possibility of multiple experts. The process can be lengthy and expensive. Understanding the timeline and having realistic expectations is important for maintaining emotional stability during the litigation.
@@ -136,18 +138,18 @@ export default function HighConflictCustodyBlog() {
             Emotional self-care is also essential. High-conflict litigation can take a significant toll, and parents who remain steady and child-focused tend to present more credibly to the court.
           </p>
 
-          <h2>Why Having an Experienced High-Conflict Family Law Attorney in Santa Clarita and Los Angeles County Is Critical</h2>
+          <h2>Why Having the Real Licensed Santa Clarita Divorce Attorney with 30 Years Experience in Santa Clarita, Valencia &amp; Newhall Is Critical</h2>
           <p>
-            High-conflict child custody cases require sophisticated legal strategy, deep knowledge of local court practices, and the ability to manage complex evidence and expert testimony. An attorney who regularly handles these types of cases in Santa Clarita and Los Angeles County courts understands what judges expect and how to present a case effectively.
+            High-conflict child custody cases require sophisticated legal strategy, deep knowledge of local court practices, and the ability to manage complex evidence and expert testimony. An attorney who regularly handles these types of cases in Santa Clarita, Valencia, and Newhall courts understands what judges expect and how to present a case effectively.
           </p>
           <p>
-            At The F.M. Zavala Law Firm, we have extensive experience representing parents in high-conflict custody litigation. We understand the emotional and financial pressures these cases create and are committed to providing strong, steady advocacy focused on protecting both your parental rights and your children’s well-being.
+            At The F.M. Zavala Law Firm, we have extensive experience representing parents in high-conflict custody litigation. We understand the emotional and financial pressures these cases create and are committed to providing strong, steady advocacy focused on protecting both your parental rights and your children’s well-being for families in Santa Clarita, Valencia, Newhall, and Los Angeles County.
           </p>
 
           <div className="mt-12 p-8 bg-[#F1EDE4] rounded-xl border border-[#D4CFC4]">
             <p className="font-medium text-[#334155] mb-4">Facing a high-conflict custody dispute?</p>
             <p className="text-[#5A5A5A] mb-6">
-              These cases require experienced, strategic representation. Contact our office for a confidential consultation.
+              These cases require experienced, strategic representation for families in Santa Clarita, Valencia, and Newhall. <Link href="/contact" className="text-[#5F7A9E] hover:underline">Contact the Santa Clarita Divorce Attorney</Link> for a confidential consultation.
             </p>
             <ConsultationCTA size="lg" />
           </div>

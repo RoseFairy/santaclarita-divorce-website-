@@ -3,8 +3,8 @@ import { Section } from "@/components/section";
 import { ConsultationCTA } from "@/components/consultation-cta";
 
 export const metadata = {
-  title: "Hidden Assets in Divorce: Santa Clarita Divorce Attorney Guide to Financial Infidelity",
-  description: "Santa Clarita divorce attorney explains how to uncover hidden assets and cryptocurrency in California divorce. Forensic techniques and legal strategies for families in Santa Clarita and Los Angeles County.",
+  title: "Hidden Assets in Divorce | Santa Clarita Divorce Attorney",
+  description: "Real licensed Santa Clarita Divorce Attorney guide to uncovering hidden assets and cryptocurrency in California divorce. Forensic techniques for families in Santa Clarita, Valencia, Newhall, and Los Angeles County with 30 years experience.",
   keywords: [
     "financial cheating spouse",
     "cryptocurrency hidden assets divorce",
@@ -22,10 +22,10 @@ export default function FinancialCheatingBlog() {
         <div className="container max-w-4xl">
           <div className="text-xs tracking-[2.5px] text-[#5F7A9E]">RESOURCES • FAMILY LAW</div>
           <h1 className="heading-serif text-[#334155] mt-3 text-4xl md:text-5xl leading-tight">
-            Uncovering Hidden Assets: A Santa Clarita Divorce Attorney’s Guide
+            Uncovering Hidden Assets: Real Santa Clarita Divorce Attorney’s Guide
           </h1>
           <p className="mt-4 text-lg text-[#5A5A5A]">
-            A strategic guide for spouses in Santa Clarita and Los Angeles County who suspect financial infidelity and hidden assets during divorce.
+            A strategic guide for spouses in Santa Clarita, Valencia, Newhall, and Los Angeles County who suspect financial infidelity and hidden assets during divorce.
           </p>
           <div className="mt-4 text-sm text-[#5A5A5A]">
             Published • June 2026 • The F.M. Zavala Law Firm
@@ -41,7 +41,7 @@ export default function FinancialCheatingBlog() {
             Financial infidelity occurs when one spouse conceals financial information, diverts or dissipates marital assets, or engages in secret transactions without the other spouse’s knowledge or consent. In California divorce, this often escalates into deliberate efforts to hide wealth from property division. Under Family Code section 721, spouses owe each other a fiduciary duty of the highest good faith and fair dealing that continues through the divorce process. Breaches—such as hiding cryptocurrency holdings, maintaining secret accounts, skimming business cash, or transferring assets to third parties—can trigger powerful court remedies.
           </p>
           <p>
-            In Santa Clarita and Los Angeles County, attorneys regularly see sophisticated tactics: anonymous crypto wallets funded by structured cash withdrawals, LLCs titled in relatives’ names holding real estate, systematic underreporting of side income, and transfers disguised as loans to new romantic partners or family members. When left unchecked, these actions can devastate the innocent spouse’s financial future.
+            In Santa Clarita, Valencia, Newhall, and Los Angeles County, attorneys regularly see sophisticated tactics: anonymous crypto wallets funded by structured cash withdrawals, LLCs titled in relatives’ names holding real estate, systematic underreporting of side income, and transfers disguised as loans to new romantic partners or family members. When left unchecked, these actions can devastate the innocent spouse’s financial future.
           </p>
 
           <h2>Common Signs of a Financially Cheating Spouse</h2>
@@ -132,7 +132,7 @@ export default function FinancialCheatingBlog() {
             Effective pursuit of these remedies requires prompt action: leveraging Automatic Temporary Restraining Orders (ATROs), seeking ex parte asset freezes or receivers when dissipation is imminent (especially crypto), serving comprehensive discovery and third-party subpoenas (including to exchanges), and presenting qualified expert testimony. Early intervention preserves evidence and maximizes available remedies.
           </p>
 
-          <h2>Why an Experienced Santa Clarita and Los Angeles County Divorce Attorney with Access to Forensic Accountants and Crypto Experts Is Essential</h2>
+          <h2>Why the Real Licensed Santa Clarita Divorce Attorney with 30 Years Experience and Forensic Experts Is Essential</h2>
           <p>
             Uncovering hidden assets, particularly in cryptocurrency hidden assets divorce cases, requires specialized legal skill and access to the right experts. An attorney who regularly practices in Santa Clarita and Los Angeles County courts understands local procedures for expedited discovery, ex parte relief, and evidence presentation. Equally important, that attorney maintains relationships with trusted forensic accountants, business valuators, and blockchain analytics specialists who produce defensible reports and testimony.
           </p>
@@ -143,7 +143,7 @@ export default function FinancialCheatingBlog() {
           <div className="mt-12 p-8 bg-[#F1EDE4] rounded-xl border border-[#D4CFC4]">
             <p className="font-medium text-[#334155] mb-4">Suspect your spouse is hiding assets or engaging in financial infidelity?</p>
             <p className="text-[#5A5A5A] mb-6">
-              Cryptocurrency tracing, forensic accounting, and strategic discovery in California divorce require an experienced legal team with access to the right experts. Contact The F.M. Zavala Law Firm for a confidential consultation.
+              Cryptocurrency tracing, forensic accounting, and strategic discovery in California divorce require an experienced legal team with access to the right experts. <Link href="/contact" className="text-[#5F7A9E] hover:underline">Contact Santa Clarita Divorce Attorney Francisco M. Zavala, Esq.</Link> for a confidential consultation.
             </p>
             <ConsultationCTA size="lg" />
           </div>

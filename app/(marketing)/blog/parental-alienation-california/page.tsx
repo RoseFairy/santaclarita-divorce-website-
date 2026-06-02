@@ -3,8 +3,8 @@ import { Section } from "@/components/section";
 import { ConsultationCTA } from "@/components/consultation-cta";
 
 export const metadata = {
-  title: "Understanding Parental Alienation in High-Conflict Child Custody Cases – Legal Strategies That Work",
-  description: "Learn how parental alienation manifests in high-conflict custody cases in California. Discover proven legal strategies used by experienced Santa Clarita and Los Angeles County family law attorneys, including 730 evaluations, Minor’s Counsel, and reunification therapy.",
+  title: "Parental Alienation in Custody | Santa Clarita Divorce Attorney",
+  description: "Real licensed Santa Clarita Divorce Attorney strategies for parental alienation in high-conflict child custody cases. 730 evaluations, Minor’s Counsel for families in Santa Clarita, Valencia, Newhall, and Los Angeles County with Direct Access.",
   keywords: [
     "parental alienation California",
     "high conflict custody attorney Los Angeles County",
@@ -23,10 +23,10 @@ export default function ParentalAlienationBlog() {
         <div className="container max-w-4xl">
           <div className="text-xs tracking-[2.5px] text-[#5F7A9E]">RESOURCES • FAMILY LAW</div>
           <h1 className="heading-serif text-[#334155] mt-3 text-4xl md:text-5xl leading-tight">
-            Understanding Parental Alienation in High-Conflict Child Custody Cases – Legal Strategies That Work
+            Parental Alienation in High-Conflict Custody: Real Santa Clarita Divorce Attorney Strategies
           </h1>
           <p className="mt-4 text-lg text-[#5A5A5A]">
-            A strategic guide for parents in Santa Clarita and Los Angeles County facing the devastating effects of parental alienation.
+            A strategic guide for parents in Santa Clarita, Valencia, Newhall, and Los Angeles County facing the devastating effects of parental alienation.
           </p>
           <div className="mt-4 text-sm text-[#5A5A5A]">
             Published • June 2026 • The F.M. Zavala Law Firm
@@ -42,7 +42,7 @@ export default function ParentalAlienationBlog() {
             Parental alienation occurs when one parent engages in a pattern of behaviors designed to damage or sever the child’s relationship with the other parent. Unlike normal estrangement—which can occur when a child legitimately distances themselves due to abuse, neglect, or poor parenting—parental alienation is driven by the alienating parent’s actions rather than the child’s independent experience.
           </p>
           <p>
-            In high-conflict custody cases throughout Santa Clarita and Los Angeles County, parental alienation can take many forms, from subtle badmouthing to more overt efforts to interfere with parenting time, communication, and the child’s emotional connection to the targeted parent. The courts recognize that while the term “parental alienation syndrome” is not formally adopted in California statute, alienating behaviors are very real and can be addressed under the best interests of the child standard.
+            In high-conflict custody cases throughout Santa Clarita, Valencia, Newhall, and Los Angeles County, parental alienation can take many forms, from subtle badmouthing to more overt efforts to interfere with parenting time, communication, and the child’s emotional connection to the targeted parent. The courts recognize that while the term “parental alienation syndrome” is not formally adopted in California statute, alienating behaviors are very real and can be addressed under the best interests of the child standard.
           </p>
 
           <h2>Common Signs of Parental Alienation</h2>
@@ -128,7 +128,7 @@ export default function ParentalAlienationBlog() {
             These actions can backfire and damage your credibility with the court and evaluators. Staying calm, documenting everything, and following court orders are essential.
           </p>
 
-          <h2>Why Hiring an Experienced High-Conflict Family Law Attorney in Santa Clarita and Los Angeles County Is Critical</h2>
+          <h2>Why Hiring the Real Licensed Santa Clarita Divorce Attorney with 30 Years Experience Is Critical</h2>
           <p>
             Parental alienation cases are among the most complex and emotionally difficult matters in family law. They require sophisticated legal strategy, strong evidence presentation, and the ability to work effectively with mental health professionals. Judges in Santa Clarita and Los Angeles County expect attorneys to be well-prepared and to focus on the child’s best interests.
           </p>
@@ -139,7 +139,7 @@ export default function ParentalAlienationBlog() {
           <div className="mt-12 p-8 bg-[#F1EDE4] rounded-xl border border-[#D4CFC4]">
             <p className="font-medium text-[#334155] mb-4">Facing a high-conflict custody case involving parental alienation?</p>
             <p className="text-[#5A5A5A] mb-6">
-              These cases require experienced, strategic representation. Contact our office for a confidential consultation.
+              These cases require experienced, strategic representation. <Link href="/contact" className="text-[#5F7A9E] hover:underline">Contact your Santa Clarita Divorce Attorney</Link> for a confidential consultation.
             </p>
             <ConsultationCTA size="lg" />
           </div>

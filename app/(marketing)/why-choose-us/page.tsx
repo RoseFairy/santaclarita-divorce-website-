@@ -1,22 +1,36 @@
-"use client";
-
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import type { Metadata } from "next";
 import { Section } from "@/components/section";
 import { ConsultationCTA } from "@/components/consultation-cta";
+import { TestimonialsCarousel } from "@/components/testimonials-carousel";
 import { Award, MapPin, Heart, Shield, Clock, Users, Handshake, Scale } from "lucide-react";
-import { cn } from "@/lib/utils";
+
+export const metadata: Metadata = {
+  title: "Why Choose Us | Santa Clarita Divorce Attorney",
+  description: "Why choose the real licensed Santa Clarita Divorce Attorney Francisco M. Zavala, Esq.? 30+ years experience as Former Los Angeles County Temporary Judge, UCLA Law, Direct Attorney Access — not paralegals or staff. Serving Santa Clarita, Valencia, Newhall, Canyon Country, and Los Angeles County.",
+  keywords: [
+    "Santa Clarita divorce attorney",
+    "why choose Santa Clarita divorce lawyer",
+    "local family law attorney Santa Clarita",
+    "Los Angeles County divorce attorney",
+    "Santa Clarita family law",
+  ],
+};
 
 const reasons = [
   {
+    icon: Scale,
+    title: "A Real Attorney — Not Paralegals or Staff",
+    desc: "You work directly with the real licensed Santa Clarita Divorce Attorney Francisco M. Zavala, Esq. — 30 years experience, Former Los Angeles County Temporary Judge. Every case receives senior-level Direct Attorney Access. No hand-offs to paralegals, case managers, or junior associates for clients in Santa Clarita, Valencia, Newhall, and the Santa Clarita Valley.",
+  },
+  {
     icon: Award,
-    title: "Deep Experience",
-    desc: "Over three decades practicing family law exclusively in the Santa Clarita Valley courts. We know the judges, the procedures, and what actually works.",
+    title: "Deep Experience as Your Santa Clarita Divorce Attorney",
+    desc: "Over three decades practicing family law exclusively in the Santa Clarita Valley courts as a real licensed attorney with 30 years experience. We know the judges, the procedures in Santa Clarita, Valencia, Newhall, and Canyon Country, and what actually works for families in Santa Clarita and Los Angeles County.",
   },
   {
     icon: MapPin,
-    title: "True Local Presence",
-    desc: "We live and work here. Our children attend local schools. We understand the unique pressures and community values of Santa Clarita families.",
+    title: "True Local Presence in Santa Clarita, Valencia & Newhall",
+    desc: "We live and work here in Santa Clarita, Valencia, and Newhall as your local Santa Clarita Divorce Attorney. Our children attend local schools in the Santa Clarita Valley. We understand the unique pressures and community values of families in Santa Clarita, Valencia, Newhall, Canyon Country, and Los Angeles County.",
   },
   {
     icon: Heart,
@@ -30,13 +44,13 @@ const reasons = [
   },
   {
     icon: Clock,
-    title: "Responsive & Accessible",
-    desc: "You will have direct access to Francisco M. Zavala, Esq. We return calls and emails promptly because we understand how stressful uncertainty can be.",
+    title: "Responsive & Accessible — Direct with the Attorney",
+    desc: "You will have direct access to Santa Clarita Divorce Attorney Francisco M. Zavala, Esq. — never routed to paralegals or staff. We return calls and emails promptly because we understand how stressful uncertainty can be for families in Santa Clarita, Valencia, and Newhall.",
   },
   {
     icon: Users,
-    title: "Personal Attention",
-    desc: "You are never passed to a junior associate. From the first meeting through resolution, your case receives senior-level focus.",
+    title: "Personal Attention from Your Santa Clarita Divorce Attorney",
+    desc: "You are never passed to a junior associate or paralegal. From the first meeting through resolution, your case with the real licensed Santa Clarita Divorce Attorney receives senior-level focus for clients in Santa Clarita, Valencia, Newhall, and the Santa Clarita Valley.",
   },
   {
     icon: Handshake,
@@ -84,23 +98,14 @@ const testimonials = [
 ];
 
 export default function WhyChooseUsPage() {
-  const [current, setCurrent] = useState(0);
-
-  const goTo = (index: number) => {
-    setCurrent(index);
-  };
-
-  const prev = () => setCurrent((current - 1 + testimonials.length) % testimonials.length);
-  const next = () => setCurrent((current + 1) % testimonials.length);
-
   return (
     <>
       <div className="bg-white border-b border-[#D4CFC4] py-12">
         <div className="container max-w-3xl">
           <div className="text-xs tracking-[2.5px] text-[#5F7A9E]">THE F.M. ZAVALA DIFFERENCE</div>
-          <h1 className="heading-serif text-[#334155] mt-2">Why Santa Clarita Families Choose Our Divorce Attorney</h1>
+          <h1 className="heading-serif text-[#334155] mt-2">Why Families Choose Our Real Santa Clarita Divorce Attorney with 30 Years Experience and Former Judge Advantage</h1>
           <p className="mt-4 text-lg text-[#5A5A5A]">
-            Choosing the right Santa Clarita divorce attorney is one of the most important decisions you will make. Here is why families throughout Santa Clarita and Los Angeles County consistently choose The F.M. Zavala Law Firm.
+            Choosing the right real licensed Santa Clarita Divorce Attorney serving Valencia, Newhall, and Canyon Country — with 30 years experience as a Former Judge and Direct Attorney Access, not paralegals — is one of the most important decisions you will make. Here is why families throughout Santa Clarita, Valencia, Newhall, Canyon Country, and Los Angeles County consistently choose The F.M. Zavala Law Firm.
           </p>
         </div>
       </div>
@@ -126,80 +131,20 @@ export default function WhyChooseUsPage() {
         </div>
       </Section>
 
-      {/* Testimonials */}
+      {/* Testimonials (client component for carousel) */}
       <Section className="bg-white border-y border-[#D4CFC4]">
         <div className="max-w-3xl mx-auto text-center mb-10">
           <div className="text-xs tracking-[2.5px] text-[#5F7A9E]">IN THEIR OWN WORDS</div>
           <h2 className="heading-serif text-[#334155] mt-2">What our clients say.</h2>
         </div>
 
-        <div className="relative max-w-4xl mx-auto">
-          <div className="overflow-hidden">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={current}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -20 }}
-                transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
-                className="px-2"
-              >
-                <blockquote className="text-center">
-                  <p className="text-2xl md:text-[27px] leading-tight font-serif text-[#2C2C2C] tracking-[-0.01em]">
-                    “{testimonials[current].quote}”
-                  </p>
-                  <footer className="mt-8 text-sm">
-                    <div className="font-medium text-[#334155]">{testimonials[current].name}</div>
-                    <div className="text-[#5A5A5A]">{testimonials[current].location} • {testimonials[current].role}</div>
-                  </footer>
-                </blockquote>
-              </motion.div>
-            </AnimatePresence>
-          </div>
-
-          {/* Controls */}
-          <div className="flex items-center justify-center gap-4 mt-10">
-            <button
-              onClick={prev}
-              className="h-9 w-9 rounded-full border border-[#D4CFC4] flex items-center justify-center text-[#5A5A5A] hover:bg-white hover:text-[#334155] transition-colors"
-              aria-label="Previous testimonial"
-            >
-              ←
-            </button>
-
-            <div className="flex gap-2">
-              {testimonials.map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => goTo(i)}
-                  className={cn(
-                    "h-1.5 rounded-full transition-all",
-                    i === current ? "w-8 bg-[#5F7A9E]" : "w-3 bg-[#D4CFC4] hover:bg-[#A89E8C]"
-                  )}
-                  aria-label={`Go to testimonial ${i + 1}`}
-                />
-              ))}
-            </div>
-
-            <button
-              onClick={next}
-              className="h-9 w-9 rounded-full border border-[#D4CFC4] flex items-center justify-center text-[#5A5A5A] hover:bg-white hover:text-[#334155] transition-colors"
-              aria-label="Next testimonial"
-            >
-              →
-            </button>
-          </div>
-        </div>
-
-        <p className="text-center text-xs text-[#8A877F] mt-10 max-w-md mx-auto">
-          Testimonials are used with permission. Individual results vary. These stories are representative of the care and dedication we bring to every client relationship.
-        </p>
+        <TestimonialsCarousel testimonials={testimonials} />
       </Section>
 
       <Section className="text-center">
         <div className="max-w-lg mx-auto">
-          <h2 className="heading-serif text-[#334155]">Let’s talk about your situation.</h2>
-          <p className="mt-3 text-[#5A5A5A]">A confidential conversation costs nothing and may change everything.</p>
+          <h2 className="heading-serif text-[#334155]">Let’s talk about your situation with the real Santa Clarita Divorce Attorney.</h2>
+          <p className="mt-3 text-[#5A5A5A]">A confidential conversation with Direct Attorney Access costs nothing and may change everything for families in Santa Clarita, Valencia, and Newhall.</p>
           <div className="mt-7">
             <ConsultationCTA size="lg" />
           </div>

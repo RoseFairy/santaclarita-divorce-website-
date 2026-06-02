@@ -19,8 +19,7 @@ export function Footer() {
               </div>
             </div>
             <p className="max-w-md text-[#C5BFB0] leading-relaxed text-[15px]">
-              Santa Clarita divorce attorney providing compassionate, strategic family law representation 
-              to families in Santa Clarita and Los Angeles County for over three decades.
+              Real licensed Santa Clarita Divorce Attorney with 30 years experience as Former Judge serving Valencia, Newhall, Canyon Country and the Santa Clarita Valley. Direct Attorney Access — not paralegals or staff — providing compassionate, strategic family law representation to families in Santa Clarita, Valencia, Newhall, and Los Angeles County.
             </p>
           </div>
 
@@ -28,10 +27,10 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="font-medium text-white mb-4 tracking-wide text-sm">NAVIGATE</div>
             <ul className="space-y-2.5 text-[15px] text-[#C5BFB0]">
-              <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
-              <li><Link href="/practice-areas" className="hover:text-white transition-colors">Practice Areas</Link></li>
-              <li><Link href="/why-choose-us" className="hover:text-white transition-colors">Why Choose Us</Link></li>
-              <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
+              <li><Link href="/about" className="hover:text-white transition-colors">Meet the Real Santa Clarita Divorce Attorney</Link></li>
+              <li><Link href="/practice-areas" className="hover:text-white transition-colors">Santa Clarita Divorce Attorney Services</Link></li>
+              <li><Link href="/why-choose-us" className="hover:text-white transition-colors">Why Choose Our 30-Year Santa Clarita Divorce Attorney</Link></li>
+              <li><Link href="/contact" className="hover:text-white transition-colors">Contact the Santa Clarita Divorce Attorney</Link></li>
             </ul>
           </div>
 
@@ -39,10 +38,10 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="font-medium text-white mb-4 tracking-wide text-sm">AREAS OF FOCUS</div>
             <ul className="space-y-2.5 text-[15px] text-[#C5BFB0]">
-              <li><Link href="/practice-areas" className="hover:text-white transition-colors">Divorce</Link></li>
-              <li><Link href="/practice-areas" className="hover:text-white transition-colors">Child Custody</Link></li>
+              <li><Link href="/practice-areas" className="hover:text-white transition-colors">Santa Clarita Divorce Attorney</Link></li>
+              <li><Link href="/practice-areas" className="hover:text-white transition-colors">Valencia &amp; Newhall Child Custody</Link></li>
               <li><Link href="/practice-areas" className="hover:text-white transition-colors">Spousal Support</Link></li>
-              <li><Link href="/practice-areas" className="hover:text-white transition-colors">Property Division</Link></li>
+              <li><Link href="/practice-areas" className="hover:text-white transition-colors">High-Asset Property Division</Link></li>
             </ul>
           </div>
 

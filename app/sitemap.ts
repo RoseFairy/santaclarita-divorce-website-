@@ -35,5 +35,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.75,
     },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/financial-cheating-spouse-california`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.65,
+    },
+    {
+      url: `${baseUrl}/blog/high-conflict-child-custody-california`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.65,
+    },
+    {
+      url: `${baseUrl}/blog/move-away-cases-california`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.65,
+    },
+    {
+      url: `${baseUrl}/blog/parental-alienation-california`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.65,
+    },
   ];
 }

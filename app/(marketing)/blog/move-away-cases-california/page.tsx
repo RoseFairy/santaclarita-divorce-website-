@@ -3,15 +3,18 @@ import { Section } from "@/components/section";
 import { ConsultationCTA } from "@/components/consultation-cta";
 
 export const metadata = {
-  title: "Move-Away & Relocation Cases | Santa Clarita Divorce Attorney",
-  description: "Santa Clarita divorce attorney guide to move-away and child relocation cases under California’s LaMusga standards. Helping families in Santa Clarita and Los Angeles County protect parent-child relationships.",
+  title: "Move-Away Cases | Santa Clarita Divorce Attorney",
+  description: "Real licensed Santa Clarita Divorce Attorney guide to move-away and child relocation cases under California’s LaMusga standards. Serving families in Santa Clarita, Valencia, Newhall, Canyon Country, and Los Angeles County with 30 years Direct Attorney Access.",
   keywords: [
     "move away cases California",
     "child custody relocation California",
     "LaMusga standards",
     "Santa Clarita family law attorney",
+    "Valencia child custody lawyer",
+    "Newhall move away attorney",
     "Los Angeles County child custody lawyer",
     "move away cases Santa Clarita",
+    "Santa Clarita divorce attorney",
   ],
 };
 
@@ -22,10 +25,10 @@ export default function MoveAwayCasesBlog() {
         <div className="container max-w-4xl">
           <div className="text-xs tracking-[2.5px] text-[#5F7A9E]">RESOURCES • FAMILY LAW</div>
           <h1 className="heading-serif text-[#334155] mt-3 text-4xl md:text-5xl leading-tight">
-            Move-Away Cases: Santa Clarita Divorce Attorney Guide to Relocation in California Child Custody
+            Move-Away Cases: Real Santa Clarita Divorce Attorney Serving Valencia &amp; Newhall — Guide to Relocation in California Child Custody
           </h1>
           <p className="mt-4 text-lg text-[#5A5A5A]">
-            A comprehensive guide for parents in Santa Clarita and Los Angeles County navigating one of the most complex issues in family law.
+            A comprehensive guide for parents in Santa Clarita, Valencia, Newhall, Canyon Country, and Los Angeles County navigating one of the most complex issues in family law.
           </p>
           <div className="mt-4 text-sm text-[#5A5A5A]">
             Published • June 2026 • The F.M. Zavala Law Firm
@@ -40,7 +43,7 @@ export default function MoveAwayCasesBlog() {
             Move-away or relocation cases arise when one parent in a custody arrangement wishes to move with the child to a new location. These cases are among the most emotionally charged and legally complex matters in California family law. Whether the move is within the state or across state lines, the court must balance the moving parent’s right to relocate with the child’s right to maintain a meaningful relationship with both parents.
           </p>
           <p>
-            In Santa Clarita and throughout Los Angeles County, these cases are common as families face job changes, new relationships, or the desire to be closer to extended family. Parents in Santa Clarita and Los Angeles County often face unique challenges in these cases. The outcome can dramatically reshape parenting time, the child’s daily life, and long-term family dynamics.
+            In Santa Clarita, Valencia, Newhall, and throughout Los Angeles County, these cases are common as families face job changes, new relationships, or the desire to be closer to extended family. Parents in Santa Clarita, Valencia, and Newhall often face unique challenges in these cases. The outcome can dramatically reshape parenting time, the child’s daily life, and long-term family dynamics.
           </p>
 
           <h2>In-State vs. Out-of-State Relocation</h2>
@@ -48,7 +51,7 @@ export default function MoveAwayCasesBlog() {
             Not all relocation requests are treated the same. In-state moves, even over long distances within California, are evaluated under a different legal framework than moves that cross state lines. Out-of-state relocations often trigger additional considerations, such as jurisdictional issues under the Uniform Child Custody Jurisdiction and Enforcement Act (UCCJEA) and the practical challenges of enforcing visitation orders across state boundaries.
           </p>
           <p>
-            Courts in Santa Clarita and Los Angeles County carefully examine the distance of the proposed move, the feasibility of maintaining frequent contact, and the potential disruption to the child’s schooling and social relationships. The greater the distance, the more scrutiny the request typically receives.
+            Courts in Santa Clarita, Valencia, Newhall, and Los Angeles County carefully examine the distance of the proposed move, the feasibility of maintaining frequent contact, and the potential disruption to the child’s schooling and social relationships. The greater the distance, the more scrutiny the request typically receives.
           </p>
 
           <h2>Key California Supreme Court Decisions</h2>
@@ -65,7 +68,7 @@ export default function MoveAwayCasesBlog() {
 
           <h2>The LaMusga Factors: What Courts Must Consider</h2>
           <p>
-            Under <em>LaMusga</em>, California courts are required to evaluate a specific set of factors when deciding move-away cases. These factors guide judges in Santa Clarita and Los Angeles County family courts when determining whether relocation serves the child’s best interests. Parents throughout Santa Clarita and Los Angeles County should understand these factors when considering relocation.
+            Under <em>LaMusga</em>, California courts are required to evaluate a specific set of factors when deciding move-away cases. These factors guide judges in Santa Clarita, Valencia, Newhall, and Los Angeles County family courts when determining whether relocation serves the child’s best interests. Parents in Santa Clarita, Valencia, Newhall, and Canyon Country should understand these factors when considering relocation.
           </p>
 
           <ul>
@@ -79,12 +82,12 @@ export default function MoveAwayCasesBlog() {
             <li><strong>The moving parent’s willingness to facilitate frequent and continuing contact</strong> — A demonstrated commitment to supporting the child’s relationship with the other parent is critical.</li>
           </ul>
 
-          <h2>Practical Implications for Santa Clarita and Los Angeles County Families</h2>
+          <h2>Practical Implications for Santa Clarita, Valencia, and Newhall Families</h2>
           <p>
-            For parents living in Santa Clarita and Los Angeles County, relocation requests often arise in the context of job opportunities, new marriages, or the desire to return to family support networks. These cases require careful preparation and a deep understanding of how local judges in Santa Clarita and Los Angeles County apply the <em>LaMusga</em> factors.
+            For parents living in Santa Clarita, Valencia, Newhall, and Los Angeles County, relocation requests often arise in the context of job opportunities, new marriages, or the desire to return to family support networks. These cases require careful preparation and a deep understanding of how local judges in Santa Clarita, Valencia, and Newhall apply the <em>LaMusga</em> factors.
           </p>
           <p>
-            Courts in Santa Clarita and Los Angeles County are experienced with high-conflict relocation disputes. They expect parents to present detailed evidence, including expert testimony, school records, and proposed parenting plans that demonstrate how the child’s relationship with both parents will be preserved.
+            Courts in Santa Clarita, Valencia, Newhall, and Los Angeles County are experienced with high-conflict relocation disputes. They expect parents to present detailed evidence, including expert testimony, school records, and proposed parenting plans that demonstrate how the child’s relationship with both parents will be preserved.
           </p>
 
           <h2>Common Challenges and Effective Legal Strategies</h2>
@@ -98,21 +101,21 @@ export default function MoveAwayCasesBlog() {
             <li>Addressing each <em>LaMusga</em> factor with specific evidence</li>
           </ul>
           <p>
-            An experienced family law attorney serving Santa Clarita and Los Angeles County can help parents anticipate the court’s concerns and present their case in the strongest possible light.
+            An experienced family law attorney serving Santa Clarita, Valencia, Newhall, and Los Angeles County can help parents anticipate the court’s concerns and present their case in the strongest possible light.
           </p>
 
-          <h2>Why an Experienced Santa Clarita and Los Angeles County Family Law Attorney Matters</h2>
+          <h2>Why the Real Licensed Santa Clarita Divorce Attorney with 30 Years Experience Serving Valencia &amp; Newhall Matters</h2>
           <p>
-            Relocation cases are highly fact-specific and emotionally charged. The outcome can fundamentally alter a child’s relationship with one parent. Having an attorney who understands the local courts in Santa Clarita and Los Angeles County knows how judges apply the <em>LaMusga</em> standards, and has experience presenting complex custody evidence can make a decisive difference for families in Santa Clarita and Los Angeles County.
+            Relocation cases are highly fact-specific and emotionally charged. The outcome can fundamentally alter a child’s relationship with one parent. Having an attorney who understands the local courts in Santa Clarita, Valencia, and Newhall knows how judges apply the <em>LaMusga</em> standards, and has experience presenting complex custody evidence can make a decisive difference for families in Santa Clarita, Valencia, Newhall, and Los Angeles County.
           </p>
           <p>
-            At The F.M. Zavala Law Firm, we bring decades of experience handling sophisticated child custody matters throughout the Santa Clarita Valley and Los Angeles County. We provide strategic, compassionate representation tailored to the unique needs of each family in Santa Clarita and Los Angeles County.
+            At The F.M. Zavala Law Firm, we bring decades of experience handling sophisticated child custody matters throughout the Santa Clarita Valley and Los Angeles County. We provide strategic, compassionate representation tailored to the unique needs of each family in Santa Clarita, Valencia, Newhall, Canyon Country, and Los Angeles County.
           </p>
 
           <div className="mt-12 p-8 bg-[#F1EDE4] rounded-xl border border-[#D4CFC4]">
             <p className="font-medium text-[#334155] mb-4">Considering a move or facing a relocation request?</p>
             <p className="text-[#5A5A5A] mb-6">
-              These cases require careful legal strategy and a deep understanding of California custody law. We proudly serve families in Santa Clarita and Los Angeles County. Contact our office for a confidential consultation.
+              These cases require careful legal strategy and a deep understanding of California custody law. We proudly serve families in Santa Clarita, Valencia, Newhall, and Los Angeles County. <Link href="/contact" className="text-[#5F7A9E] hover:underline">Contact your Santa Clarita Divorce Attorney</Link> for a confidential consultation.
             </p>
             <ConsultationCTA size="lg" />
           </div>

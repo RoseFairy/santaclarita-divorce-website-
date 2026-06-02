@@ -7,16 +7,23 @@ import { ConsultationCTA } from "@/components/consultation-cta";
 import { Button } from "@/components/ui/button";
 
 export const metadata = {
-  title: "Santa Clarita Divorce Attorney | The F.M. Zavala Law Firm",
-  description: "Experienced Santa Clarita divorce attorney Francisco M. Zavala, Esq. helps families in Santa Clarita and Los Angeles County with divorce, child custody, spousal support, and complex property division. Serving Valencia, Canyon Country, Newhall, Stevenson Ranch, and Castaic.",
+  title: {
+    absolute: "Santa Clarita Divorce Attorney | The F.M. Zavala Law Firm",
+  },
+  description: "Santa Clarita Divorce Attorney Francisco M. Zavala, Esq. — Real Licensed Attorney with 30 Years Experience, Former Los Angeles County Temporary Judge, UCLA Law. Direct Attorney Access — never handled by paralegals or staff. Serving Santa Clarita, Valencia, Newhall, Canyon Country for divorce, custody, high-asset.",
   keywords: [
-    "Santa Clarita divorce attorney",
-    "Santa Clarita divorce lawyer",
+    "Santa Clarita Divorce Attorney",
+    "Santa Clarita Divorce Lawyer",
+    "Valencia Divorce Attorney",
+    "Newhall Family Law Attorney",
     "Santa Clarita family law attorney",
     "Los Angeles County divorce attorney",
     "Valencia divorce lawyer",
+    "Newhall child custody lawyer",
     "child custody attorney Santa Clarita",
     "high asset divorce Santa Clarita",
+    "real attorney Santa Clarita",
+    "former judge Santa Clarita Divorce Attorney",
   ],
 };
 
@@ -35,26 +42,26 @@ const stagger = {
 const practiceHighlights = [
   {
     title: "Divorce & Legal Separation",
-    desc: "Strategic guidance through uncontested and high-conflict dissolutions with clarity and respect for the personal and financial stakes.",
+    desc: "Santa Clarita Divorce Attorney strategic guidance through uncontested and high-conflict dissolutions with clarity and respect for the personal and financial stakes in Santa Clarita, Valencia, and Newhall.",
   },
   {
     title: "Child Custody & Visitation",
-    desc: "Advocacy in complex custody matters, including 730 evaluations, Minor’s Counsel, forensic assessments, and move-away cases.",
+    desc: "Santa Clarita Divorce Attorney advocacy in complex custody matters, including 730 evaluations, Minor’s Counsel, forensic assessments, and move-away cases for families in Valencia and Newhall.",
   },
   {
     title: "High-Asset Divorce & Property Division",
-    desc: "Sophisticated asset tracing, business valuation, forensic accounting, and equitable division of complex marital estates.",
+    desc: "Santa Clarita Divorce Attorney for sophisticated asset tracing, business valuation, forensic accounting, and equitable division of complex marital estates in Valencia, Newhall, and the Santa Clarita Valley.",
   },
   {
     title: "Support & Estate Planning",
-    desc: "Child and spousal support, post-judgment modifications, and wills and trusts tailored to changing family circumstances.",
+    desc: "Santa Clarita Divorce Attorney for child and spousal support, post-judgment modifications, and wills and trusts tailored to changing family circumstances.",
   },
 ];
 
 const whyUs = [
-  { icon: Award, label: "30 Years Experience", detail: "Celebrating his 30th year practicing law in Santa Clarita family courts" },
-  { icon: MapPin, label: "Local Court Knowledge", detail: "Familiar with judges, procedures & local practices" },
-  { icon: Heart, label: "Compassionate Counsel", detail: "Empathetic support during life’s most difficult transitions" },
+  { icon: Award, label: "30 Years Experience", detail: "Celebrating his 30th year as real licensed Santa Clarita Divorce Attorney in Santa Clarita, Valencia, Newhall family courts" },
+  { icon: Users, label: "Real Attorney, Direct Access", detail: "Work directly with real licensed Santa Clarita Divorce Attorney Francisco M. Zavala, Esq. — never handed to paralegals or staff in Valencia, Newhall" },
+  { icon: MapPin, label: "Local Court Knowledge", detail: "Familiar with judges, procedures & local practices in Santa Clarita, Valencia, Newhall, Canyon Country, and Santa Clarita Valley courts as your Divorce Attorney" },
   { icon: Shield, label: "Strategic Advocacy", detail: "Settlement-focused when possible, trial-ready when necessary" },
 ];
 
@@ -85,7 +92,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <Image 
             src="/images/hero.jpg" 
-            alt="Calm professional setting at The F.M. Zavala Law Firm in Santa Clarita and Los Angeles County" 
+            alt="Santa Clarita Divorce Attorney office serving Valencia, Newhall, Canyon Country" 
             fill
             className="object-cover opacity-40" 
             priority
@@ -100,11 +107,11 @@ export default function Home() {
             </div>
 
             <h1 className="heading-serif max-w-4xl text-balance text-[#334155] leading-[1.05]">
-              Santa Clarita Divorce Attorney<br />You Can Trust When It Matters Most
+              Santa Clarita Divorce Attorney<br />Real Licensed Attorney with 30 Years Experience You Can Trust
             </h1>
 
             <p className="mt-6 max-w-xl text-xl text-[#3F3F3F] leading-relaxed">
-              For over three decades, The F.M. Zavala Law Firm has served as a trusted Santa Clarita divorce attorney for families throughout Santa Clarita and Los Angeles County. We provide experienced representation in divorce, child custody, and property division matters in Valencia, Canyon Country, Newhall, Stevenson Ranch, and across the Santa Clarita Valley.
+              For over three decades, The F.M. Zavala Law Firm has served as the trusted Santa Clarita Divorce Attorney — a real licensed attorney with 30 years experience, former Los Angeles County Temporary Judge, and UCLA Law graduate. Direct Attorney Access for clients in Santa Clarita, Valencia, Newhall, Canyon Country, and the Santa Clarita Valley. We provide experienced representation in divorce, child custody, spousal support, and high-asset property division — never handled by paralegals or staff.
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
@@ -115,7 +122,7 @@ export default function Home() {
                 href="/about"
                 className="inline-flex h-14 items-center justify-center rounded-lg border border-[#334155] px-8 text-base font-medium text-[#334155] transition-all hover:bg-[#334155] hover:text-[#F8F4ED]"
               >
-                Meet Francisco Zavala
+                Meet the Real Santa Clarita Divorce Attorney with 30 Years Experience
               </Link>
             </div>
 
@@ -137,10 +144,10 @@ export default function Home() {
       {/* TRUST BAR */}
       <div className="border-b border-[#D4CFC4] bg-white py-5">
         <div className="container flex flex-wrap justify-center md:justify-between gap-x-10 gap-y-3 text-sm font-medium text-[#5A5A5A] tracking-wide">
-          <div>30+ YEARS EXPERIENCE</div>
-          <div>SANTA CLARITA SUPERIOR COURT</div>
-          <div>500+ FAMILIES GUIDED</div>
-          <div>SETTLEMENT-FOCUSED APPROACH</div>
+          <div>REAL LICENSED ATTORNEY — 30 YEARS EXPERIENCE</div>
+          <div>DIRECT ATTORNEY ACCESS — NO PARALEGALS OR STAFF</div>
+          <div>FORMER LOS ANGELES COUNTY TEMPORARY JUDGE</div>
+          <div>SANTA CLARITA SUPERIOR COURT EXPERT</div>
         </div>
       </div>
 
@@ -151,14 +158,14 @@ export default function Home() {
             <div className="uppercase tracking-[2px] text-xs text-[#5F7A9E] font-medium mb-3">MEET YOUR ATTORNEY</div>
             <h2 className="heading-serif text-[#334155]">Santa Clarita Divorce Attorney: Francisco M. Zavala, Esq.</h2>
             <p className="mt-6 text-lg text-[#5A5A5A] max-w-2xl">
-              A UCLA alumnus (B.S. 1993, J.D. 1996) with advanced training at Harvard Law School and Hastings College of the Law, Francisco M. Zavala, Esq. is celebrating his 30th year as a Santa Clarita divorce attorney. His experience as a Los Angeles County Temporary Judge gives him rare insight into how courts evaluate cases, helping families across Santa Clarita and Los Angeles County achieve the best possible outcomes.
+              A UCLA alumnus (B.S. 1993, J.D. 1996) with advanced training at Harvard Law School and Hastings College of the Law, Francisco M. Zavala, Esq. is the real licensed Santa Clarita Divorce Attorney serving Valencia, Newhall, Canyon Country, and the Santa Clarita Valley with 30 years of experience as a Former Los Angeles County Temporary Judge. Direct Attorney Access — your case is never handed off to paralegals or staff.
             </p>
             <div className="mt-8">
               <Link
                 href="/about"
                 className="inline-flex items-center justify-center rounded-lg border border-[#5F7A9E] px-5 py-2 text-sm font-medium text-[#5F7A9E] transition-all hover:bg-[#5F7A9E] hover:text-[#F8F4ED]"
               >
-                Read Francisco’s Full Story
+                Read the full story of our real Santa Clarita Divorce Attorney with 30 years experience
               </Link>
             </div>
           </div>
@@ -166,7 +173,7 @@ export default function Home() {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-[#D4CFC4] shadow-sm">
               <Image 
                 src="/images/francisco-zavala.jpg" 
-                alt="Francisco M. Zavala, Esq. - Santa Clarita and Los Angeles County Divorce Attorney" 
+                alt="Santa Clarita Divorce Attorney Francisco M. Zavala, Esq. serving Valencia and Newhall" 
                 fill
                 className="object-cover object-[center_22%]" 
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -181,10 +188,10 @@ export default function Home() {
         <div className="flex items-end justify-between mb-10">
           <div>
             <div className="text-xs tracking-[2px] text-[#5F7A9E]">EXPERIENCED REPRESENTATION</div>
-            <h2 className="heading-serif text-[#334155] mt-1">Practice Areas</h2>
+            <h2 className="heading-serif text-[#334155] mt-1">Santa Clarita Divorce Attorney Practice Areas</h2>
           </div>
           <Link href="/practice-areas" className="hidden md:inline-flex items-center gap-2 text-sm font-medium text-[#5F7A9E] hover:underline">
-            View All Areas <span aria-hidden>→</span>
+            View Santa Clarita Divorce Attorney practice areas for Valencia &amp; Newhall <span aria-hidden>→</span>
           </Link>
         </div>
 
@@ -194,14 +201,14 @@ export default function Home() {
               <h3 className="font-serif text-xl text-[#334155] mb-3">{area.title}</h3>
               <p className="text-[#5A5A5A] flex-1 leading-relaxed text-[15px]">{area.desc}</p>
               <Link href="/practice-areas" className="mt-6 text-sm font-medium text-[#5F7A9E] inline-flex items-center gap-1 hover:gap-1.5 transition-all">
-                Learn more →
+                Santa Clarita Divorce Attorney services →
               </Link>
             </div>
           ))}
         </div>
 
         <div className="mt-8 md:hidden">
-          <Link href="/practice-areas" className="text-sm font-medium text-[#5F7A9E]">View all practice areas →</Link>
+          <Link href="/practice-areas" className="text-sm font-medium text-[#5F7A9E]">View Santa Clarita Divorce Attorney services for Valencia &amp; Newhall →</Link>
         </div>
       </Section>
 
@@ -209,7 +216,7 @@ export default function Home() {
       <Section>
         <div className="max-w-2xl">
           <div className="text-xs tracking-[2px] text-[#5F7A9E]">THE F.M. ZAVALA DIFFERENCE</div>
-          <h2 className="heading-serif text-[#334155] mt-2">Why Santa Clarita Families Trust Our Divorce Attorney</h2>
+          <h2 className="heading-serif text-[#334155] mt-2">Why Families Choose Our Real Santa Clarita Divorce Attorney with 30 Years Experience</h2>
         </div>
 
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -226,7 +233,7 @@ export default function Home() {
         </div>
 
         <div className="mt-12">
-          <Link href="/why-choose-us" className="inline-flex text-sm font-medium text-[#5F7A9E] hover:underline">Discover more reasons families choose us →</Link>
+          <Link href="/why-choose-us" className="inline-flex text-sm font-medium text-[#5F7A9E] hover:underline">Why choose the real Santa Clarita Divorce Attorney with direct access and 30 years experience →</Link>
         </div>
       </Section>
 
@@ -237,7 +244,7 @@ export default function Home() {
             <div className="text-xs tracking-[2px] text-[#5F7A9E]">CLIENT VOICES</div>
             <h2 className="heading-serif text-[#334155]">Real stories from real families.</h2>
           </div>
-          <Link href="/why-choose-us" className="text-sm hidden md:block font-medium text-[#5F7A9E]">Read more testimonials →</Link>
+          <Link href="/why-choose-us" className="text-sm hidden md:block font-medium text-[#5F7A9E]">Read stories from families served by our Santa Clarita Divorce Attorney →</Link>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -253,16 +260,16 @@ export default function Home() {
         </div>
 
         <div className="mt-8 md:hidden">
-          <Link href="/why-choose-us" className="text-sm font-medium text-[#5F7A9E]">Read more testimonials →</Link>
+          <Link href="/why-choose-us" className="text-sm font-medium text-[#5F7A9E]">Read stories from families served by our Santa Clarita Divorce Attorney →</Link>
         </div>
       </Section>
 
       {/* FINAL CTA */}
       <Section className="text-center">
         <div className="max-w-2xl mx-auto">
-          <h2 className="heading-serif text-[#334155]">Ready to take the next step?</h2>
+          <h2 className="heading-serif text-[#334155]">Ready to take the next step with your Santa Clarita Divorce Attorney?</h2>
           <p className="mt-4 text-lg text-[#5A5A5A]">
-            Schedule a confidential consultation today. We’ll listen carefully, answer your questions, and help you understand your options — with no pressure and no obligation.
+            Schedule a confidential consultation today with your real Santa Clarita Divorce Attorney — licensed with 30 years experience as a Former Judge, providing Direct Attorney Access (not paralegals) for clients in Santa Clarita, Valencia, Newhall, Canyon Country, and the Santa Clarita Valley. We’ll listen carefully, answer your questions, and help you understand your options — with no pressure and no obligation.
           </p>
           <div className="mt-8">
             <ConsultationCTA size="lg" className="px-10 h-14 text-base" />

@@ -10,11 +10,11 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/practice-areas", label: "Practice Areas" },
-  { href: "/why-choose-us", label: "Why Choose Us" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact" },
+  { href: "/about", label: "Meet the Santa Clarita Divorce Attorney" },
+  { href: "/practice-areas", label: "Santa Clarita Divorce Attorney Services" },
+  { href: "/why-choose-us", label: "Why Choose Our Divorce Attorney" },
+  { href: "/blog", label: "Santa Clarita Divorce Resources" },
+  { href: "/contact", label: "Contact Santa Clarita Divorce Attorney" },
 ];
 
 export function Navbar() {
